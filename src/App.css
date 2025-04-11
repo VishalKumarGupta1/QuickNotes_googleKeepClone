@@ -1,0 +1,20 @@
+@media (min-width: 310px) and (max-width: 479px) {
+  html {
+    font-size: 150%;
+  }
+/* emptynotes components */
+  .emptybox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -250px;
+  }
+  /* for form components */
+  #formcontainer{
+    width: 300px;
+    font-size: 90px;
+    margin-top: 20px;
+    margin: auto;
+  }
+
+}
