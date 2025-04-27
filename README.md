@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 🗒️ QuickNotes – A Google Keep Clone
 
-In the project directory, you can run:
+**QuickNotes** is a clean, responsive note-taking application inspired by Google Keep. It allows users to create, organize, archive, delete, and restore notes — all with a smooth drag-and-drop interface and intuitive design.
 
-### `npm start`
+🔗 **Live Demo:** [https://quicknoteskeepclone.netlify.app/](https://quicknoteskeepclone.netlify.app/)  
+📂 **GitHub Repo:** [VishalKumarGupta1/QuickNotes_googleKeepClone](https://github.com/VishalKumarGupta1/QuickNotes_googleKeepClone)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 📝 **Create Notes** with a title and description  
+- 📥 **Archive & Unarchive** functionality  
+- 🗑️ **Move to Trash**, **Restore**, or **Permanently Delete** notes  
+- 🔄 **Drag-and-Drop** to organize notes easily  
+- 🎯 **Hover Effects** on icons for a dynamic user experience  
+- 🔀 **React Router** for smooth navigation between Notes, Archive, and Trash  
+- ⚛️ **React Context API** for global state management  
+- 📱 **Responsive UI** built with **Material UI**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧰 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** – Frontend library  
+- **Material UI** – Modern and responsive UI components  
+- **React Router** – Navigation between views  
+- **Context API** – For managing app-wide state  
+- **hello-pangea/dnd** – Smooth drag-and-drop functionality  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧑‍💻 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/VishalKumarGupta1/QuickNotes_googleKeepClone.git
+   cd QuickNotes_googleKeepClone
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Run the app:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Open in browser:**  
+   Visit [http://localhost:3000](http://localhost:3000)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔮 Future Enhancements
 
-### Analyzing the Bundle Size
+- 🔐 User authentication (login/signup)  
+- 🔍 Search and filter functionality  
+- 🏷️ Labels, tags, and note colors  
+- ☁️ Cloud sync via Firebase or Supabase  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧾 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](LICENSE).
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📸 Screenshots
 
-### Deployment
+![Screenshot 2025-04-27 190006](https://github.com/user-attachments/assets/2d504aee-cb85-4da4-bf23-7cc6b67032d6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
